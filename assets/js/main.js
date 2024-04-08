@@ -1,7 +1,3 @@
-//პირობაში მცდელობების ჯამური რაოდენობა 4ზე ნამრავლით შევცვალე, რადგან მაგალითად 10 წყვილი კარტის შემთხვევაში
-//20 დაკლიკებაა საჭირო ,რაც ტოვებს 10 დაკლიკებას მცდარი ვარიანტებისთვის ,რაც გულისხმობს 5 არაშესაბამისი წყვილი კარტის ამოტრიალებას.
-//დატესტვისას მივხვდი რომ შედარებით ცოტა იყო მხოლოდ 5 არასწორი მცდელობა.
-
 const rangePickerSection = document.querySelector("#rangePickerSection");
 const rangeDisplay = document.querySelector("#rangeDisplay");
 const generateDisplay = document.querySelector(".generate");
@@ -149,10 +145,3 @@ function outOfAttempts() {
     }
   }
 }
-
-/*
-  დავალება
-  არსებულ memory card game დაუმატეთ attemps მიდგომა.
-  სადაც მცდელობების რაოდენობა გაიზრდება ყოველ წარუმატებელ დაკლიკებაზე.
-  attemps დააგენერირეთ შემდგომი ფორმულით: რაოდენობა * 3
-*/
